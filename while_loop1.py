@@ -7,6 +7,7 @@ sum = 0
 while i <= 10:
     sum = sum + i
     i = i + 1
-    print (i)
+    if i <= 10:
+        print (i)
 
 print ("Summation: ", sum)
