@@ -4,7 +4,7 @@
 list1 = ["one", "two", "three"]
 print ("Original list: ", list1)
 print ("")
-# Insert take two arguments first is index and second is value
+# Insert funtion requires two arguments first is index and second is value
 list1.insert(0, "zero")
 print ("Insert element in 0th position: ", list1)
 print ("Length of list: ", len(list1))
@@ -40,3 +40,5 @@ print ("")
 list1.remove("two")
 print ("Remove element in the list: ", list1)
 print ("Length of list: ", len(list1))
+
+# Remove the element in particular position
