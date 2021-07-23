@@ -18,5 +18,29 @@ print ("Removed last element: ", list1)
 
 print ("")
 # The pop function remove element in 1st position in the list
-list1.pop(1)
+element = list1.pop(1)
 print ("Removed element in  1st position: ", list1) 
+print ("Popup element in the list: ", element)
+
+# The del method delete the element in the 1st position in the list
+del list1[1]
+print ("Deleted the element in list: ", list1)
+
+print ("")
+# The clear function remove all elements in the list
+list1.clear()
+print ("Removed all elements: ", list1)
+
+print ("")
+list2 = ['a', 'b', 'c']
+print ("The oiginal list2 list: ", list2)
+
+print ("")
+# Remove all element in the list
+del list2[:]
+print ("Removed all element in the list: ", list2)
+
+print ("")
+# Delete the complete list 
+del list2
+print (list2)
