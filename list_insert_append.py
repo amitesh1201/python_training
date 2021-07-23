@@ -35,10 +35,3 @@ print ("")
 list1.append("four")
 print ("Append element in list: ", list1)
 print ("Length of list: ", len(list1))
-
-print ("")
-list1.remove("two")
-print ("Remove element in the list: ", list1)
-print ("Length of list: ", len(list1))
-
-# Remove the element in particular position
