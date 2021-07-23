@@ -8,7 +8,7 @@ print ("The original list: ", list1)
 
 print ("")
 list1.remove(2)
-print ("Remove element in the list: ", list1)
+print ("Removed element 2 in the list: ", list1)
 print ("Length of list: ", len(list1))
 
 print ("")
