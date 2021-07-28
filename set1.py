@@ -33,3 +33,12 @@ print ("String convert to set: ", set(string1))
 # For empty set bool() function print the "False"
 set3 = set()
 print ("Empty set in set3: ", bool(set3))
+
+set4 = set((1,2,3))
+print ("Set4 is not empty set: ", bool(set4))
+
+print ("Length of set4: ", len(set4))
+
+# Print in the boolean value.
+print (2 in set4)
+
