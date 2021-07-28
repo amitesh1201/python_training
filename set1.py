@@ -39,6 +39,10 @@ print ("Set4 is not empty set: ", bool(set4))
 
 print ("Length of set4: ", len(set4))
 
+#
 # Print in the boolean value.
+# If value exists in set then print True.
+# If value not exists in set then print False.
+#
 print (2 in set4)
 
