@@ -6,7 +6,8 @@ import os
 # os.listdir("directory_path") require input as directory path. 
 # This function display list of files and directories in the specifies path.
 #
-print (os.listdir("/"))
+list_dir = os.listdir("/")
+print ("List of directories and file:\n " , list_dir, "\n")
 
 create_dir = "test-dir"
 
