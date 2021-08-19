@@ -41,11 +41,15 @@ print ("\nThe items() function deplays the disctionary itmes in form of tuples i
 print ("dict1.items(): ",dict1.items())
 print ("list(dict1.items()): ",list(dict1.items()))
 
-print ("============================")
+print ("\n============================\n")
 
 key = 1
-
-if value in dict1:
-    print (f"The ",{key}," exist in the dictionary dict1")
+if key in dict1:
+    print (f"The ",key," exist in the dictionary dict1")
 else:
-    print (f"The ",{key}," not exist in the dictionary dict1")
+    print (f"The ",key," not exist in the dictionary dict1")
+
+print ("\n============================\n")
+
+for key,value in dict1.items():
+    print (key,": ", value)
