@@ -26,14 +26,17 @@ print ("\ndict1.get(3): ", dict1.get(3))
 #
 print ("\ndict1.get(4): ", dict1.get(4))
 
-# The keys() function displays the all keys in the form of list in the dicntionary.
-print ("\nThe keys() function displays the all keys in the form of list in the dicntionary.")
+# The keys() function displays the all keys in the form of list in the dictionary.
+print ("\nThe keys() function displays the all keys in the form of list in the dictionary.")
 print ("dict1.keys(): ", dict1.keys())
+print ("list(dict1.keys()): ", list(dict1.keys()))
 
-# The values() function displays the all values of keys in the form of list  in the dicntionary.
-print ("\nThe values() function displays the all values of keys in the form of list  in the dicntionary.")
+# The values() function displays the all values of keys in the form of list  in the dictionary.
+print ("\nThe values() function displays the all values of keys in the form of list  in the dictionary.")
 print ("dict1.values(): ", dict1.values())
+print ("list(dict1.values()): ", list(dict1.values()))
 
-# The items() function deplays the disctionary itmes in form of tuples in list.
+# The items() function deplays the dictionary itmes in form of tuples in list.
 print ("\nThe items() function deplays the disctionary itmes in form of tuples in list.")
 print ("dict1.items(): ",dict1.items())
+print ("list(dict1.items()): ",list(dict1.items()))
