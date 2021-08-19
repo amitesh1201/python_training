@@ -40,3 +40,12 @@ print ("list(dict1.values()): ", list(dict1.values()))
 print ("\nThe items() function deplays the disctionary itmes in form of tuples in list.")
 print ("dict1.items(): ",dict1.items())
 print ("list(dict1.items()): ",list(dict1.items()))
+
+print ("============================")
+
+key = 1
+
+if value in dict1:
+    print (f"The ",{key}," exist in the dictionary dict1")
+else:
+    print (f"The ",{key}," not exist in the dictionary dict1")
