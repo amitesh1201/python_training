@@ -50,6 +50,27 @@ else:
     print (f"The ",key," not exist in the dictionary dict1")
 
 print ("\n============================\n")
+print ("Display keys")
+for key in dict1.keys():
+    print (key)
 
+print ("\n============================\n")
+print ("Display values")
+for value in dict1.values():
+    print (value)
+
+
+print ("\n============================\n")
+print ("Display keys and value")
 for key,value in dict1.items():
     print (key,": ", value)
+
+
+
+
+
+
+
+
+
+
