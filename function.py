@@ -33,8 +33,8 @@ def summation(num1, num2):
 def print_result(result):
     print ("Result of the operation: ", result)
 
-# The undefined_arguments function for undefined arguments 
-def undefined_arguments(*args):
+# The  function for undefined arguments 
+def unknow_arguments(*args):
     for a in args:
        print (a)
 
@@ -53,4 +53,4 @@ sum = summation(num1, num2)
 print_result(sum)
 
 
-undefined_arguments(1,2,3,4,5)
+unknow_arguments(1,2,3,4,5)
