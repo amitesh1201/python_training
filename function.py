@@ -24,14 +24,21 @@ def argument_function(name):
 def user_input_function(arg):
     print ("You have entered: ", arg)
 
-
+# Take the input from the user for addition of two numbers.
 def summation(num1, num2):
     sum = int(num1) + int(num2)
     return sum
 
+# The print_result function print the result of any operartion.
 def print_result(result):
     print ("Result of the operation: ", result)
 
+# The undefined_arguments function for undefined arguments 
+def undefined_arguments(*args):
+    for a in args:
+       print (a)
+
+#============Funcation Call============
 print_msg()
 argument_function("Python")
 
@@ -44,3 +51,6 @@ num2 = input ("Enter the num2: ")
 
 sum = summation(num1, num2)
 print_result(sum)
+
+
+undefined_arguments(1,2,3,4,5)
