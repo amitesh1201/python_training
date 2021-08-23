@@ -5,6 +5,9 @@ def arbitrary_fn(**args):
      for a in args.items():
          print (a)
 
+     for key, value in args.items():
+        print("%s == %s" % (key, value))
+
      print ("Convert to dictionay dict(args): ", dict(args))
 
 
