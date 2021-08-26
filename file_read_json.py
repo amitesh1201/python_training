@@ -22,4 +22,6 @@ data = json.load(file_state)
 
 print (data) 
 
+file_state.close()
+
 

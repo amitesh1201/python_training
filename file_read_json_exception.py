@@ -33,6 +33,7 @@ def check_file_exist(fname):
         exit (1)
 
     print (data)
+    file_state.close()
 
 
 def filename_userinput():
