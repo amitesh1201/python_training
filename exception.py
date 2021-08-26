@@ -14,6 +14,8 @@ while True:
      try:
         x = int(input("Please enter a number: "))
         break
+#     except Exception as e:
+#          print (e)
      except ValueError:
          print ("You have entered the non-numeric value. Enter the numerical value.")
      except KeyboardInterrupt:
