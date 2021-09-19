@@ -23,7 +23,7 @@
 
 #
 # Task:
-# 1. Take the "id" input from user, search and display the complete record.
+# 1. Take the "id" and file name as input from user, search and display the complete record.
 # 2. If the input is other than an integer, then display the proper error message and provide 
 # the two more attempts (including the first attempt, means three attempts) to
 # the user. 
@@ -54,8 +54,8 @@ print ("len(data['book']): ", len(data['book']))
 # Display the first and second record individually.
 print ("\nDictionary data['book'][0]: ", data['book'][0])
 print ("\nDictionary data['book'][1]: ", data['book'][1])
-
-
+#
+#
 print ("\ndata['book'][0]['id']: ", data['book'][0]['id'])
 len_data = len(data['book']) 
 print ("\nlen_data: ", len_data)
