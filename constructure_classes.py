@@ -28,3 +28,7 @@ n3.b1 = 100
 print (n3.a1," ",n3.b1) 
 
 n3.print_number(21,11)
+
+del n1
+del n2
+del n3
