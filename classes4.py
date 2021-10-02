@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import sys
+
 class Name:
 
     #
@@ -8,7 +10,7 @@ class Name:
     #
     def __init__(self,name):
         self.name = name
-        print ("This is __init__ ",self)
+        print ("This is __init__ ",self," ",sys.getsizeof(self.name),"\n")
 
     #
     # The self is the reference of the class
@@ -19,6 +21,15 @@ class Name:
 
 # Initialize the object
 n1 = Name ("Python")
+n2 = Name ("Java")
 
+
+# Print reference in the n1
+print ("\nPrint the reference in ",n1," ",sys.getsizeof(n1))
 # Print the value
-print (n1.set_name()) 
+print (n1.set_name())
+
+# Print reference in the n2
+print ("\nPrint the reference in ",n2," ",sys.getsizeof(n2))
+# Print the value
+print (n2.set_name())
