@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import gc 
+
 class Number:
 
     def __init__(self, x=0, y=0):
@@ -29,6 +31,15 @@ print (n3.a1," ",n3.b1)
 
 n3.print_number(21,11)
 
+# The del clear the partially memory from the namespace.
 del n1
 del n2
 del n3
+
+#print (n1," ",n2," ",n3)
+
+# Clear all memory used by this program.
+n = gc.collect()
+
+print("Number of unreachable objects collected by GC:", n)
+print("Uncollectable garbage:", gc.garbage)
